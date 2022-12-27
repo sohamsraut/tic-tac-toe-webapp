@@ -1,6 +1,5 @@
 (function() {
 
-  let gameStart = false;
   let player = "X";
   let boardStatus = ["", "", "", "", "", "", "", "", ""];
   const WIN_MESSAGE = () => `Player ${player} has won!`;
